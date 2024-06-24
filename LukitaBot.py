@@ -32,7 +32,7 @@ def save_email_hogar(message):
     if len(message.text.split()) > 1:
         correo = message.text.split()[1]
         correos_guardados.append(correo)
-        bot.reply_to(message, "Espere un momento por favor, esto demora dentro de 1 a 5 min.")
+        bot.reply_to(message, "Espere un momento por favor...")
         buscar_mensajes(correo, "Importante: Cómo actualizar tu Hogar con Netflix", "Sí, la envié yo", "]", message)
     else:
         bot.reply_to(message, "Debes ingresar un correo después del comando /hogar.")
