@@ -4,7 +4,7 @@ import imaplib
 import email
 from email.header import decode_header
 
-TELEGRAM_TOKEN = '7044819146:AAGgMe8n-jEV8vBDNEoHGDKoc5GRX6dFi6M'
+TELEGRAM_TOKEN = '704481'
 EMAIL_USER = 'latiendadsmith@gmail.com'
 EMAIL_PASSWORD = 'jhzh'
 
