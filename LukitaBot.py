@@ -6,7 +6,7 @@ from email.header import decode_header
 
 TELEGRAM_TOKEN = '7044819146:AAGgMe8n-jEV8vBDNEoHGDKoc5GRX6dFi6M'
 EMAIL_USER = 'latiendadsmith@gmail.com'
-EMAIL_PASSWORD = 'jhzh eakg omcz prgl'
+EMAIL_PASSWORD = 'jhzh'
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
